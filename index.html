@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style-index.css">
+</head>
+
+<body>
+    <main>
+        <section id="contenedor">
+            <div>
+                <h1>Stay updated!</h1>
+                <p>Join 60.000+ product managers receiving monthly <br>updates on:</p>
+                <ul>
+                    <li><img src="./img/icon-list.svg" alt="icono"> Product discovery and building what matters</li>
+                    <li><img src="./img/icon-list.svg" alt="icono"> Measuring to ensure updates are a succes</li>
+                    <li><img src="./img/icon-list.svg" alt="icono"> And much more!</li>
+                </ul>
+                <form action="">
+                    <span id="error-mailInvalido">Valid email required</span>
+                    <label for="email">Email address
+                        <input type="email" name="email" id="email" placeholder="email@company.com">
+                    </label>
+                    <button type="button" id="btn-suscribe">Suscribe to monthly newsletter</button>
+                </form>
+            </div>
+
+            <div>
+                <img src="./img/illustration-sign-up-desktop.svg" alt="">
+            </div>
+        </section>
+        <section id="confirmacion">
+            <img src="./img/icon-list.svg" alt="icono">
+            <h2>Thanks for</h2>
+            <h2>suscribing!</h2>
+            <p> A confirmation email has been sent to <br><strong id="correo"></strong>. Please open it and click <br>the button inside to confirm your subscription. </p>
+            <button type="button" id="btn-dismiss">Dismiss message</button>
+        </section>
+    </main>
+
+
+
+    <script src="./js/cod-index.js"></script>
+</body>
+
+</html>
